@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="BMI">
+  <grid id="27dc6" binding="BMIPanel" layout-manager="GridLayoutManager" row-count="6" column-count="24" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="927" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-3433010"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="2cf1b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="1"/>
+          <text value="Enter height "/>
+        </properties>
+      </component>
+      <component id="5f949" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="1"/>
+          <text value="Enter weight "/>
+        </properties>
+      </component>
+      <component id="d5035" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="1"/>
+          <text value="BMI"/>
+        </properties>
+      </component>
+      <component id="f60e2" class="javax.swing.JButton" binding="calculateBMIButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15659762"/>
+          <foreground color="-15610356"/>
+          <text value="Calculate BMI"/>
+        </properties>
+      </component>
+      <component id="b7b06" class="javax.swing.JLabel" binding="Display">
+        <constraints>
+          <grid row="4" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-899402"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="31f33" class="javax.swing.JTextField" binding="textWeight">
+        <constraints>
+          <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <foreground color="-15659762"/>
+        </properties>
+      </component>
+      <component id="269c8" class="javax.swing.JButton" binding="resetButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15659762"/>
+          <foreground color="-15610356"/>
+          <text value="Reset"/>
+        </properties>
+      </component>
+      <component id="489d1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="6" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="24" style="1"/>
+          <foreground color="-15659762"/>
+          <text value="BMI Calculator"/>
+        </properties>
+      </component>
+      <component id="2133b" class="javax.swing.JRadioButton" binding="KGMetersRadioButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="KG/Meters"/>
+        </properties>
+      </component>
+      <component id="3587b" class="javax.swing.JRadioButton" binding="poundsInchesRadioButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Pounds/Inches"/>
+        </properties>
+      </component>
+      <component id="7d792" class="javax.swing.JTextField" binding="textHeight">
+        <constraints>
+          <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <foreground color="-15659762"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="ea75" class="javax.swing.JLabel" binding="Display2">
+        <constraints>
+          <grid row="4" column="7" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-899402"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
